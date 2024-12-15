@@ -7,7 +7,7 @@ int main() {
     createStack_2311104020(S);
 
     // Push each character of "STRUKTURDATA" onto the stack
-    string input = "PERCAYADIRI";
+    string input = "STRUKTURDATA";
     for (char c : input) {
         push_2311104020(S, c);
     }
@@ -20,7 +20,7 @@ int main() {
     cout << endl;
 
     // Pop and display "DATA"
-    cout << "DIRI" << endl;
+    cout << "DATA" << endl;
 
     return 0;
 }
